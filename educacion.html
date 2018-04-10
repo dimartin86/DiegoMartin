@@ -122,6 +122,7 @@
 						<th>TÍTULO</th>
 						<th>INSTITUCIÓN</th>
 						<th>AÑO</th>						
+						<th>CULMINÓ</th>						
 					</tr>
 				</thead>
 				<tbody>
@@ -129,16 +130,19 @@
 						<td>Técnico en sistemas y telecomunicaciones</td>
 						<td>Fundación universitaria San Mateo</td>
 						<td>2011</td>
+						<td>Sí</td>
 					</tr>
 					<tr>
 						<td>Tecnólogo en desarrollo de software</td>
 						<td>Fundación universitaria San Mateo</td>
 						<td>2013</td>
+						<td>Sí</td>
 					</tr>	
 					<tr>
 						<td>Ingeniero de sistemas</td>
 						<td>Fundación universitaria San Mateo</td>
 						<td>2015</td>
+						<td>Sí</td>
 					</tr>									
 				</tbody>
 			</table>
@@ -170,7 +174,7 @@
 						<tr>
 							<th>Año</th>
 							<td>
-								<input type="text" id="txt_anio" name="txt_anio" required>
+								<select name="txt_anio" id="txt_anio" required></select>
 							</td>
 						</tr>
 						</tr>	
@@ -193,5 +197,14 @@
 		<b>diegoandresmartin@outlook.com - tel: 1122332</b>
 	</footer>
 
+	<script>
+		var html1 = "<option value=''>Seleccione...</option>";
+
+		for (var i = 1980; i <= 2018; i++) {
+			html1 += "<option value='"+i+"'>"+i+"</option>";			
+		}
+
+		document.getElementById("txt_anio").innerHTML = html1;
+	</script>
 </body>
 </html>
