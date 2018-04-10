@@ -1,0 +1,105 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+body {  
+  background: #EAEAF1;
+}
+
+#container{
+	width: 90%;
+	min-height: 450px;
+	margin: auto;
+	background: #fff;
+}
+
+header{
+	height: 100px;
+	background: cadetblue;
+	padding-bottom: 20px;
+	text-align: center;;
+}
+
+section{
+	padding: 10px 30px;	
+}
+
+nav{
+	background: #0C435D;
+	text-align: center;
+}
+
+nav ul{
+	display: inline-block;
+	list-style: none;
+}
+
+nav ul li{
+	float:left;
+	padding: 5px 30px;
+}
+
+nav a:hover{
+	color: #C2C6C8;
+}
+
+nav ul li a{
+	text-decoration: none;
+	font-size: 25px;
+	color: #fff;
+	font-weight: bold;
+}
+
+h1{
+	color: #558FAD;
+}	
+
+video{
+	background: #000;
+}
+
+footer{
+	left: 0;
+	bottom: 0;
+    width: 100%;	
+	background:#0C435D;
+	text-align: center;
+	padding: 15px;
+	color:#fff;
+}
+
+/* EDUCACION  ----------------------------------------*/
+
+.form1{
+	width: 350px;
+	margin: 0 auto;	
+}
+
+.form1 table{
+	width: 100%;
+}
+
+table thead th{
+	background: #548CAC;
+	color: #fff;	
+}
+
+table th, table td{
+	padding: 5px;
+}
+
+input[type=text]{
+	width: 94%;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+.btn1{
+	padding:5px;
+	background: #548CAC;
+	color: #fff;
+	border:none;
+	border-radius: 5px;
+	float: right;
+}
